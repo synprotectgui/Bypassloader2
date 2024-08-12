@@ -1,1 +1,4 @@
-game.Players.LocalPlayer:Kick("You have been IP-Banned from ER:LC. Reason: Using cheats")
+local player = game.Players.LocalPlayer
+
+-- Kicks the player with a message
+player:Kick("You have been IP BANNED from the game. Using cheats")
